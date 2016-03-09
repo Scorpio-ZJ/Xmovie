@@ -60,7 +60,8 @@
     UIView *thildV = [[UIView alloc]initWithFrame:CGRectMake(self.view.bounds.size.width*2, 0, self.view.bounds.size.width, self.view.bounds.size.height-self.view.bounds.size.height/10)];
     thildV.backgroundColor = [UIColor whiteColor];
     [self.scrollV addSubview:thildV];
-    
+    NSString *str = @"jieshua SB";
+    NSString *str1 = @"我是天才少年";
     
 }
 -(void)firstV{
